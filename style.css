@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(33, 5, 97);
+    color: white;
+}
+#container{
+    justify-self: center;
+    width: 90%;
+    margin-top: 20px;
+}
+#intro img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    
+}
+#intro{
+    position: relative;
+    height:20%
+}
+#name{
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    font-size: small;
+    color: transparent;
+    background: linear-gradient(to right,purple,red,blue,indigo);
+    background-clip: text;
+    text-shadow: -3px 3px 7px rgb(0, 0, 0);
+}
+.abc{
+    color: transparent;
+    background: linear-gradient(to bottom right,white,grey);
+    background-clip: text;
+    font-size: large;
+}
+#aboutme{
+    background-color: rgb(60, 21, 150);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 6px;
+    background: linear-gradient(to bottom,rgb(119, 38, 119),rgb(72, 31, 105),rgb(29, 29, 121));
+}
+#more{
+    display: flex;  
+    flex-direction: column;
+    margin: 8px 0px;
+    gap: 13px;
+}
+#projects{
+    background-color: rgb(60, 21, 150);
+    padding: 10px;
+    border-radius: 10px;
+}
+#projects ul{
+    padding-left: 20px;
+    margin-top: 10px;
+}
+#projects ul li{
+    margin-top: 5px;
+}
+#projects ul li a:hover{
+    font-size: large;
+}
+#projects a{
+    color: white;
+    text-decoration: none;
+}
+#contact{
+    background-color: rgb(60, 21, 150);
+    padding: 10px;
+    border-radius: 10px;
+}
+#details{
+    margin-top: 10px;
+}
+
+@media (width > 540px) {
+    #more{
+        flex-direction: row;
+    }
+    #contact{
+        width: 40%;
+    }
+    #projects{
+        width: 60%;
+    }
+    #name{
+        font-size: large;
+    }
+}
