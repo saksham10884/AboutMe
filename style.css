@@ -5,6 +5,7 @@
 body{
     background-color: rgb(33, 5, 97);
     color: white;
+    justify-items: center;
 }
 #container{
     justify-self: center;
@@ -29,7 +30,6 @@ body{
     color: transparent;
     background: linear-gradient(to right,purple,red,blue,indigo);
     background-clip: text;
-    text-shadow: -3px 3px 7px rgb(0, 0, 0);
 }
 .abc{
     color: transparent;
@@ -90,5 +90,11 @@ body{
     }
     #name{
         font-size: large;
+        backgrond:none;
+        color: white;
+    }
+    .abc{
+        background:none;
+        color:white;
     }
 }
