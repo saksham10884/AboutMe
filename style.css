@@ -88,8 +88,6 @@ body{
     }
     #name{
         font-size: large;
-        backgrond:none;
-        color: white;
         color: transparent;
         background: linear-gradient(to right,purple,red,blue,indigo);
         background-clip: text;
