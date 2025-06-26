@@ -27,15 +27,13 @@ body{
     top: 30%;
     left: 2%;
     font-size: small;
-    color: transparent;
-    background: linear-gradient(to right,purple,red,blue,indigo);
-    background-clip: text;
+    backgrond:none;
+    color: white;
 }
 .abc{
-    color: transparent;
-    background: linear-gradient(to bottom right,white,grey);
-    background-clip: text;
     font-size: large;
+    background:none;
+    color:white;
 }
 #aboutme{
     background-color: rgb(60, 21, 150);
@@ -92,9 +90,13 @@ body{
         font-size: large;
         backgrond:none;
         color: white;
+        color: transparent;
+        background: linear-gradient(to right,purple,red,blue,indigo);
+        background-clip: text;
     }
     .abc{
-        background:none;
-        color:white;
+       color: transparent;
+        background: linear-gradient(to bottom right,white,grey);
+        background-clip: text;
     }
 }
